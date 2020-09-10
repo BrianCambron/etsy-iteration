@@ -2,7 +2,7 @@
 
 const sumOfPrices = items.reduce((sum, item) => sum + item.price, 0) / items.length;
 console.log(sumOfPrices);
-const avgPrice = `The average price is ${sumOfPrices}`
+const avgPrice = `The average price is ${sumOfPrices.toFixed(2)}`
 console.log(avgPrice);
   console.log('\n');
 
