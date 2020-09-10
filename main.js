@@ -15,12 +15,8 @@ console.log(currency);
 
 
 
-
-
-
-
-
-
+const alotMat = items.filter(item => item.materials.length >= 8);
+console.log(alotMat);
 
 
 const sellerMade = items.filter(item => item.who_made === 'i_did');
